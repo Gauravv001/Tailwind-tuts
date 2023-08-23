@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>TailwindTuts</title>
+  </head>
+
+  <body class="bg-slate-900 grid place-content-center h-screen">
+    <h1 class="text-white text-4xl m-6">Card layout</h1>
+    <div class="grid place-content-center gap-10">
+      <div
+        class="p-5 max-w-sm mx-auto bg-white rounded-xl shadow-lg flex items-center space-x-8"
+      >
+        <div>
+          <img
+            class="h-max w-max rounded-lg"
+            src="../images/images.jpg"
+            alt=""
+            class="src"
+          />
+        </div>
+        <div class="text">
+          <div class="text-2xl text-cyan-500 font-medium">
+            Tailwind CSS
+            <p class="text-slate-500 text-base">By gaurav sharma</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <button
+      type="button"
+      class="bg-sky-500 text-white text-base mt-2 text-center p-2 rounded-xl hover:bg-white hover:text-black"
+    >
+      Buy now
+    </button>
+
+    <div class="text-center my-4">
+      <p class="text-white sm:text-sky-400 md:text-green-500">
+        Lorem ipsum dolor sit.
+      </p>
+    </div>
+
+    <!--Responsive Card -->
+    <div class="mt-4">
+      <div
+        class="max-w-sm mx-4 bg-white rounded-xl overflow-hidden md:max-w-2xl"
+      >
+        <div class="md:flex">
+          <div class="">
+            <img
+              class="h-38 w-full object-cover md:h-full md:w-48"
+              src="https://images.pexels.com/photos/17884240/pexels-photo-17884240/free-photo-of-man-people-industry-business.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+              alt="/"
+            />
+          </div>
+          <div class="p-5 m-5">
+            <div
+              class="uppercase tracking-wide text-sm text-indigo-400 font-semibold"
+            >
+              An awesome card
+            </div>
+            <a
+              class="block mt-1 text-lg font-medium text-black hover:text-blue-700"
+              href="#"
+              >TailwindCss is amzing once you understand the power of it.</a
+            >
+            <p class="mt-2 text-slate-400">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+              tempora
+              <span class="bg-yellow-200 p-[2px] px-[14px] rounded-md">facilis</span>
+              deleniti, vel vero necessitatibus quisquam? Quasi veritatis
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
